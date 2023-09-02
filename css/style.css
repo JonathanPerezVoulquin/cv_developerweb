@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Roboto-Regular'; /* Nombre que le das a tu fuente */
+    src: url('../fonts/roboto-regular.ttf') format('truetype'); /* Ruta al archivo .ttf */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway-SemiBold'; /* Nombre que le das a tu fuente */
+    src: url('../fonts/Raleway-SemiBold.ttf') format('truetype'); /* Ruta al archivo .ttf */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Estilo personalizado para todos los párrafos*/
+
+p {
+    font-size: 24px; /* Tamaño de fuente deseado */
+    font-family: 'roboto-regular', sans-serif;
+}
+/* Estilos personalizados para la barra vertical */
+.vertical-bar {
+    background-color: #000000; /* Color de fondo de la barra */
+    padding: 20px; /* Espacio interior de la barra */
+    text-align: center; /* Centrar el contenido */
+  }
+
+  /* Establece el tamaño de fuente para el h2 dentro del aside */
+.vertical-bar h2 {
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+  .profile-image {
+    border-radius: 50%; /* Para crear una imagen redonda */
+    margin: 20px auto; /* Margen centrado */
+    max-width: 40%; /* Tamaño máximo de la imagen */
+    display: block; /* Centrar la imagen horizontalmente */
+  }
+
+  /* Estilos para el subtítulo y lista de contactos */
+  .contact-info {
+    margin-top: 20px; /* Espacio superior */
+    color: aliceblue;
+    font-size: 24px ;
+  }
+
+  .contact-info > h2 {
+    font-size: 55px;
+  }
+  
+
+/* Estilo para todos los enlaces dentro del aside en gris */
+.vertical-bar a {
+    color: grey; /* Puedes ajustar el tono de gris según tus preferencias */
+    text-decoration: none; /* Elimina subrayado de los enlaces si lo deseas */
+}
+
+/* Estilo para los enlaces cuando se les pasa el mouse por encima (opcional) */
+.vertical-bar a:hover {
+    color: darkgrey; /* Puedes cambiar el color al pasar el mouse por encima */
+    text-decoration: underline blanchedalmond ;
+}
+
+
+  /* Estilos para el párrafo de descripción */
+  .description {
+    margin-top: 20px; /* Espacio superior */
+    font-size: 20px ;
+  }
+
+  /* Estilos personalizados para el elemento main dentro de la clase .row */
+.row > main {
+    padding-left: 0.1rem; /* Padding izquierdo de 0.1rem */
+    padding-right: 0.1rem; /* Padding derecho de 0.1rem */
+}
+
+ .title{
+    margin-top: 20px; /* Margen en la parte superior */
+    margin-bottom: 20px ; /* Margen en la parte inferior */
+    font-size: 60px;
+    font-family: 'Raleway-SemiBold', sans-serif;
+    text-decoration: underline;
+}
+
+
