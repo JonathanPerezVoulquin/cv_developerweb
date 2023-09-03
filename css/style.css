@@ -12,12 +12,21 @@
     font-style: normal;
 }
 
+
+
 /* Estilo personalizado para todos los párrafos*/
 
 p {
     font-size: 24px; /* Tamaño de fuente deseado */
     font-family: 'roboto-regular', sans-serif;
 }
+
+/* Estilo personalizado para todos los párrafos*/
+
+aside p {
+  color: aliceblue;
+}
+
 /* Estilos personalizados para la barra vertical */
 .vertical-bar {
     background-color: #000000; /* Color de fondo de la barra */
